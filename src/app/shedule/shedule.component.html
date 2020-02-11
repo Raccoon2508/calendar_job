@@ -1,1 +1,15 @@
-<p>HEre</p>
+<p>Здесь должно быть рассписание дня</p>
+<button class="button" (click)="showConfig('day20200210')">Get info</button>
+<div class="events">
+  <div
+    class="event"
+    *ngFor="let event of eventsArray"
+    [class.high]="event.priority === 'high'"
+  >
+    <p>{{event.timeFrom}}</p>
+    <p>{{event.timeTo}}</p>
+    <p>{{event.title}}</p>
+    <p>{{event.priority}}</p>
+    <button class="delete">delete</button>
+  </div>
+</div>

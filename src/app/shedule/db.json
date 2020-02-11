@@ -1,0 +1,14 @@
+{
+  "Nikita": {
+    "day20200210": {
+      "time0800": {
+        "timeFrom": "0800",
+        "timeTo": "0900",
+        "title": "job",
+        "comment": "Blablabla",
+        "priority": "low",
+        "person": "alone"
+      }
+    }
+  }
+}
